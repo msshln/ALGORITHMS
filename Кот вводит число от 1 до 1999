@@ -2,7 +2,9 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
+   setlocale(LC_ALL, "RUSSIAN");
     string a;
     string s;
     string d;
