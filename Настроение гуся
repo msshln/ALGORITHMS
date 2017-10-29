@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUSSIAN");
+	double a, b;
+	cout << "Привет! У нас есть настроение Гуся. Если гусь доволен, введите 1, если не доволен, введите 2." << endl;
+	cin >> a;
+
+	if (a == 1) {
+		cout << "Гусь доволен! Все хорошо!" << endl;
+	}
+	else if (a == 2) {
+		cout << "Гусь не доволен! Ему следует погулять!" << endl;
+	} 
+	else {
+		cout << "Гусю все равно" << endl;
+	}
+
+	system("pause"); 
+    return 0;
+}
